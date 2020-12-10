@@ -1,0 +1,64 @@
+body {
+    background-image: url('img/cani.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    color: #e5644e;
+}
+
+p, input {
+    font-family: 'Nerko One', cursive;
+    font-size: 1.2rem;
+}
+
+label {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-family: 'Nerko One', cursive;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color:#e5644e;
+    color: white;
+}
+
+.fa-paw {
+    font-size: 4rem;
+    color: #e5644e;
+}
+
+.colContainer {
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.converter {
+    padding: 30px 20px;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 20px;
+    margin-top: -7%;
+}
+
+.form-control {
+    width: 35%;
+}
+
+.ageInput {
+    margin: 0 auto;
+}
+
+#submitBtn {
+    margin-top: 16px;
+}
+
+#result {
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
